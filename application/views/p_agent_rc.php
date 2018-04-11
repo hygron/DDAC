@@ -1,5 +1,5 @@
  <?php  
- $connect = mysqli_connect("dddac-tp038206.mysql.database.azure.com", "tp038206@ddac-tp038206", "Admin123", "db_admin");  
+ $connect = mysqli_connect("ddacdb2018.mysql.database.azure.com", "hygron@ddacdb2018", "Ddac038206", "db_admin");  
  $sql = "SELECT * FROM customer INNER JOIN agent ON customer.register_agent = agent.full_name";
  $result = mysqli_query($connect, $sql);
  ?>
