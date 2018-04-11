@@ -75,8 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'ddactp038206-mysqldbserver.mysql.database.azure.com',
-	'username' => 'tp038206@ddactp038206-mysqldbserver',
+	'hostname' => 'ddacdb2018.mysql.database.azure.com',
+	'username' => 'hygron@ddacdb2018',
 	'password' => 'Ddac038206',
 	'database' => 'db_admin',
 	'dbdriver' => 'mysqli',
