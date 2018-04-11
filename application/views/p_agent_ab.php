@@ -155,7 +155,7 @@
       <div class="modal-danger">
 	  <form method="post" action="<?php echo base_url()?>index.php/agent/form_validation3">
 	  <?php date_default_timezone_set("Asia/Kuala_Lumpur");
-			$connect = mysqli_connect("dddac-tp038206.mysql.database.azure.com", "tp038206@ddac-tp038206", "Admin123", "db_admin");
+			$connect = mysqli_connect("ddacdb2018.mysql.database.azure.com", "hygron@ddacdb2018", "Ddac038206", "db_admin");
 	  ?>
         <div class="form-group">
             <span class="input-group-addon">Agent ID</span>
